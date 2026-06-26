@@ -1,0 +1,6 @@
+{
+  "name": "گروه هنر و رسانه رَست",
+  "description": "سامانه جامع مدیریت و آفیش تجهیزات رسانه‌ای، عوامل انسانی، رزرو و صدور فاکتور",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

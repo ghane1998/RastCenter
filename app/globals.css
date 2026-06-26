@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* -------------------------------------------------------------------------- */
+/* RTL PERSIAN FONTS INTEGRATION                                              */
+/* -------------------------------------------------------------------------- */
+
+/* Sahel Font */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css');
+
+/* Gandom Font */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/gandom-font@v0.8.0/dist/font-face.css');
+
+/* Parastoo Font */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/parastoo-font@v1.0.0-alpha5/dist/font-face.css');
+
+/* Vazirmatn Font */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+/* Custom Dynamic Classes */
+.font-vazir {
+  font-family: 'Vazirmatn', sans-serif !important;
+}
+
+.font-sahel {
+  font-family: 'Sahel', sans-serif !important;
+}
+
+.font-parastoo {
+  font-family: 'Parastoo', sans-serif !important;
+}
+
+.font-gandom {
+  font-family: 'Gandom', sans-serif !important;
+}
+
+.font-yekan {
+  font-family: 'Vazirmatn', 'Yekan', sans-serif !important;
+}
+
+/* Base Body Font Override helper */
+body {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
